@@ -22,8 +22,7 @@
 			<li>TwilekBackstory</li>
       <li>Civil</li>
   	</backstoryCategories>
-    <homeIconPath>World/TwilekBaseIcon</homeIconPath>
-    <expandingIconTexture>World/TwilekBaseIcon</expandingIconTexture>
+    <factionIconPath>World/TwilekBaseIcon</factionIconPath>
     <startingResearchTags>
       <li>ClassicStart</li>
     </startingResearchTags>
@@ -53,8 +52,6 @@
 			<li>TwilekBackstory</li>
       <li>Civil</li>
   	</backstoryCategories>
-    <homeIconPath>World/TwilekBaseIcon</homeIconPath>
-    <expandingIconTexture>World/TwilekBaseIcon</expandingIconTexture>
     <startingResearchTags>
       <li>TribalStart</li>
     </startingResearchTags>
@@ -69,6 +66,7 @@
     <colorSpectrum>
       <li>(0, 0.437, 0.847)</li>
     </colorSpectrum>
+    <factionIconPath>World/TwilekBaseIcon</factionIconPath>
   </FactionDef>
 
 </Defs>

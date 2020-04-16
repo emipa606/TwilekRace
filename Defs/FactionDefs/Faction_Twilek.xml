@@ -16,18 +16,18 @@
       <min>10</min>
       <max>40</max>
     </startingGoodwill>
-	<factionNameMaker>NamerFactionTribal</factionNameMaker>
-	<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
-	<techLevel>Medieval</techLevel>
-  <backstoryCategories>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
 			<li>TwilekBackstory</li>
   	</backstoryCategories>
-			<hairTags>
+    <hairTags>
 			<li>Urban</li>
       <li>Rural</li>
       <li>Tribal</li>
       <li>Punk</li>
-			</hairTags>
+    </hairTags>
     <naturalColonyGoodwill>
       <min>-60</min>
       <max>0</max>
@@ -79,7 +79,7 @@
           <TwilekMerc>130</TwilekMerc>
         </options>
       </li>
-	  <li>
+      <li>
       <kindDef>Trader</kindDef>
         <traders>
           <TwilekTrader>1</TwilekTrader>
@@ -95,7 +95,7 @@
           <TwilekOperative>130</TwilekOperative>
         </guards>
       </li>
-	  <li>
+      <li>
         <kindDef>Settlement</kindDef>
         <options>
           <TwilekColonist>50</TwilekColonist>
@@ -108,8 +108,6 @@
         </options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/TwilekBaseIcon</homeIconPath>
-	<expandingIconTexture>World/TwilekBaseIcon</expandingIconTexture>
   </FactionDef>
 
 </Defs>

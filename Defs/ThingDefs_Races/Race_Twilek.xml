@@ -25,31 +25,31 @@
 				<li>
 				<pawnKindEntries>
 					<li>
-                    <kindDefs>
-                        <li>TwilekMerc</li>
-						<li>TwilekOperative</li>
-						<li>TwilekOperativeElite</li>
-						<li>TwilekColonist</li>
-                    </kindDefs>
-                    <chance>10.0</chance>
-					</li>
+            <kindDefs>
+              <li>TwilekMerc</li>
+              <li>TwilekOperative</li>
+              <li>TwilekOperativeElite</li>
+              <li>TwilekColonist</li>
+            </kindDefs>
+            <chance>10.0</chance>
+          </li>
 				</pawnKindEntries>
 					<factionDefs>
 						<li>TwilekPlayerColony</li> 
 					</factionDefs>
 				</li>
 			</startingColonists>
-            <alienwandererkinds>
+          <alienwandererkinds>
                 <li>
                     <pawnKindEntries>
                         <li>
                             <kindDefs>
                                 <li>TwilekMerc</li>
-								<li>TwilekOperative</li>
-								<li>TwilekColonist</li>
-								<li>TwilekOperativeElite</li>
-								<li>TwilekPackLeader</li>
-								<li>TwilekRecruit</li>
+                                <li>TwilekOperative</li>
+                                <li>TwilekColonist</li>
+                                <li>TwilekOperativeElite</li>
+                                <li>TwilekPackLeader</li>
+                                <li>TwilekRecruit</li>
                             </kindDefs>
                             <chance>50.0</chance>
                         </li>
@@ -112,12 +112,12 @@
                     <li>Average_Normal</li>
                 </aliencrowntypes>
                 <alienbodytypes>
-                <li>Thin</li>
-                <li>Male</li>
-                <li>Female</li>
+                  <li>Thin</li>
+                  <li>Male</li>
+                  <li>Female</li>
                 </alienbodytypes>
                 <alienskincolorgen Class="ColorGenerator_Options">
-                               <options>
+                <options>
             <li>
                 <weight>8</weight>
                 <only>RGBA(0.949,0.533,0.533,1)</only>
@@ -200,7 +200,7 @@
             <relationChanceModifierSpouse>1.1</relationChanceModifierSpouse>
         </relationSettings>
     </alienRace>
-	<statBases>
+    <statBases>
       <MarketValue>2000</MarketValue>
       <MoveSpeed>6</MoveSpeed>
       <Flammability>0.3</Flammability>
@@ -210,7 +210,7 @@
 	   <PsychicSensitivity>0.95</PsychicSensitivity>
 	   <MiningSpeed>1.2</MiningSpeed>
     </statBases>
-  <tools>
+    <tools>
       <li>
         <label>left fist</label>
         <capacities>
@@ -332,7 +332,7 @@
       </hediffGiverSets>
     </race>
     <recipes>
-       <li>InstallArchotechEye</li>
+      <li>InstallArchotechEye</li>
       <li>InstallArchotechArm</li>
       <li>InstallArchotechLeg</li>
       <li>InstallPowerClaw</li>

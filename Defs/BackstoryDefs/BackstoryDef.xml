@@ -2,11 +2,11 @@
 <Defs>
 
 <AlienRace.BackstoryDef>
-    <defName>TwilekMonk</defName>
-    <title>Battle monk</title>
+  <defName>TwilekMonk</defName>
+  <title>Battle monk</title>
 	<titleShort>Monk</titleShort>
-    <baseDescription>[PAWN_nameDef] was raised by a Hutt slave training facility devoted to martial arts and acrobatics, to produce various dancers, bodyguards, and assassins to the various Hutt ganglords. [PAWN_pronoun] was raised to master various forms of physical combat and acrobatics, excelling in melee combat skills from an early age.</baseDescription>
-    <slot>Childhood</slot>
+  <baseDescription>[PAWN_nameDef] was raised by a Hutt slave training facility devoted to martial arts and acrobatics, to produce various dancers, bodyguards, and assassins to the various Hutt ganglords. [PAWN_pronoun] was raised to master various forms of physical combat and acrobatics, excelling in melee combat skills from an early age.</baseDescription>
+  <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<bodyTypeGlobal>Thin</bodyTypeGlobal>
@@ -32,11 +32,11 @@
 </AlienRace.BackstoryDef>
 
 <AlienRace.BackstoryDef>
-    <defName>TwilekMonkAdl</defName>
-    <title>Twi'lek assassin</title>
+  <defName>TwilekMonkAdl</defName>
+  <title>Twi'lek assassin</title>
 	<titleShort>Assassin</titleShort>
-    <baseDescription>[PAWN_nameDef] spent [PAWN_possessive] adolescent years training in advanced infiltration and assassination techniques. [PAWN_pronoun] has masterered multiple martial arts, weapons, and techniques for stealth and information gathering.</baseDescription>
-    <slot>Adulthood</slot>
+  <baseDescription>[PAWN_nameDef] spent [PAWN_possessive] adolescent years training in advanced infiltration and assassination techniques. [PAWN_pronoun] has masterered multiple martial arts, weapons, and techniques for stealth and information gathering.</baseDescription>
+  <slot>Adulthood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<bodyTypeGlobal>Thin</bodyTypeGlobal>

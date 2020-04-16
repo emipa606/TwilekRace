@@ -6,7 +6,7 @@
   <PawnKindDef Name="TwilekBase" Abstract="True">
     <defaultFactionType>TwilekEmpire</defaultFactionType>
     <race>Alien_Twilek</race>
-	<backstoryCategories>
+    <backstoryCategories>
 			<li>TwilekBackstory</li>
       <li>Civil</li>
   	</backstoryCategories>
