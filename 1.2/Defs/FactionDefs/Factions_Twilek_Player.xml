@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef Abstract="True" Name="TwilekFactionBase" Parent="HumanFactionBase">
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+    <settlementTexturePath>World/TwilekBaseIcon</settlementTexturePath>
+    <factionIconPath>World/TwiIcon</factionIconPath>
+  </FactionDef>
+  <FactionDef Parent="TwilekFactionBase">
+    <defName>TwilekPlayerColony</defName>
+    <label>Twilek Colony</label>
+    <description>Your own community.</description>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>Lekku</li>
+    </hairTags>
+    <backstoryCategories>
+      <li>TwilekBackstory</li>
+      <li>Outlander</li>
+    </backstoryCategories>
+    <techLevel>Ultra</techLevel>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Twilek</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  <FactionDef Parent="TwilekFactionBase">
+    <defName>TwilekPlayerColonyTribal</defName>
+    <label>Twilek Tribal</label>
+    <description>Twilek Tribal Start.</description>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <colorSpectrum>
+      <li>(0, 0.437, 0.847)</li>
+    </colorSpectrum>
+    <hairTags>
+      <li>Lekku</li>
+    </hairTags>
+    <backstoryCategories>
+      <li>TwilekBackstory</li>
+      <li>Outlander</li>
+    </backstoryCategories>
+    <techLevel>Ultra</techLevel>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Twilek</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+</Defs>
