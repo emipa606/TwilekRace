@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef Abstract="True" Name="TwilekFactionBase" ParentName="FactionBase">
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+    <settlementTexturePath>World/TwilekBaseIcon</settlementTexturePath>
+    <factionIconPath>World/TwiIcon</factionIconPath>
+  </FactionDef>
+  <FactionDef Parent="TwilekFactionBase">
+    <defName>TwilekPlayerColony</defName>
+    <label>Twilek Colony</label>
+    <description>Your own community.</description>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <allowedCultures>
+      <li>Rustican</li>
+    </allowedCultures>
+    <backstoryCategories>
+      <li>TwilekBackstory</li>
+      <li>Outlander</li>
+    </backstoryCategories>
+    <techLevel>Ultra</techLevel>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Twilek</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <raidLootValueFromPointsCurve>
+      <points>
+        <li>(35,     15)</li>
+        <li>(100,   120)</li>
+        <li>(1000,  500)</li>
+        <li>(2000,  800)</li>
+        <li>(4000, 1000)</li>
+      </points>
+    </raidLootValueFromPointsCurve>
+  </FactionDef>
+  <FactionDef Parent="TwilekFactionBase">
+    <defName>TwilekPlayerColonyTribal</defName>
+    <label>Twilek Tribal</label>
+    <description>Twilek Tribal Start.</description>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <colorSpectrum>
+      <li>(0, 0.437, 0.847)</li>
+    </colorSpectrum>
+    <allowedCultures>
+      <li>Corunan</li>
+    </allowedCultures>
+    <backstoryCategories>
+      <li>TwilekBackstory</li>
+      <li>Outlander</li>
+    </backstoryCategories>
+    <techLevel>Ultra</techLevel>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Twilek</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <raidLootValueFromPointsCurve>
+      <points>
+        <li>(35,     15)</li>
+        <li>(100,   120)</li>
+        <li>(1000,  500)</li>
+        <li>(2000,  800)</li>
+        <li>(4000, 1000)</li>
+      </points>
+    </raidLootValueFromPointsCurve>
+  </FactionDef>
+</Defs>
