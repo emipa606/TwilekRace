@@ -165,15 +165,17 @@
         <li>
           <key>HairDef</key>
           <value>
-            <styleTags>
+            <styleTagsOverride>
               <li>Lekku</li>
-            </styleTags>
+            </styleTagsOverride>
           </value>
         </li>
         <li>
           <key>BeardDef</key>
           <value>
-            <hasStyle>false</hasStyle>
+            <styleTagsOverride>
+              <li>NoBeard</li>
+            </styleTagsOverride>
           </value>
         </li>
       </styleSettings>
