@@ -22,7 +22,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2018388859
 ![Image](https://i.imgur.com/NOW7jU1.png)
 
 
-Twi&apos;lek race by Xen
+Twi'lek race by Xen
 
 
 ![Image](https://i.imgur.com/Rs6T6cr.png)
@@ -35,6 +35,7 @@ Twi&apos;lek race by Xen
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
