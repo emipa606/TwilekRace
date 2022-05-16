@@ -1,18 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <FactionDef Abstract="True" Name="TwilekFactionBase" ParentName="FactionBase">
-    <colorSpectrum>
-      <li>(0, 0.737, 0.847)</li>
-    </colorSpectrum>
-    <settlementTexturePath>World/TwilekBaseIcon</settlementTexturePath>
-    <factionIconPath>World/TwiIcon</factionIconPath>
-  </FactionDef>
-  <FactionDef Parent="TwilekFactionBase">
+  <FactionDef Parent="FactionBase">
     <defName>TwilekPlayerColony</defName>
     <label>Twilek Colony</label>
     <description>Your own community.</description>
     <factionNameMaker>NamerFactionOutlander</factionNameMaker>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
     <startingResearchTags>
       <li>ClassicStart</li>
     </startingResearchTags>
@@ -28,6 +24,8 @@
     <basicMemberKind>Twilek</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <settlementTexturePath>World/TwilekBaseIcon</settlementTexturePath>
+    <factionIconPath>World/TwiIcon</factionIconPath>
     <apparelStuffFilter>
       <thingDefs>
         <li>Synthread</li>
@@ -67,6 +65,8 @@
     <basicMemberKind>Twilek</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <settlementTexturePath>World/TwilekBaseIcon</settlementTexturePath>
+    <factionIconPath>World/TwiIcon</factionIconPath>
     <apparelStuffFilter>
       <thingDefs>
         <li>Synthread</li>
