@@ -7,7 +7,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2018388859
 
 - Added Royalty faction-patch
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://i.imgur.com/KFjAmff.png)
 
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)

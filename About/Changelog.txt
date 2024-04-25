@@ -1,5 +1,8 @@
 # Changelog for TwilekRace
 
+1.4.5 - Last update, added end-of-life message
+
+
 1.4.4 - Fixed the hair graphics on one of the hairstyles
 
 
